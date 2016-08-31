@@ -1,0 +1,12 @@
+/Users/ccoupe/.rvm/rubies/ruby-2.1.6/bin/ruby -r ./siteconf20150521-62008-4ybt41.rb extconf.rb
+rake 10.1.0
+rdoc 4.1.0
+
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
+make: Nothing to be done for `install'.
